@@ -1,7 +1,9 @@
 const LandingPage = () => {
   return (
-    <div className="text-lg text-blue-800">LandingPage</div>
-  )
-}
+    <div>
+      <h1 className="text-xl text-blue-800">LandingPage</h1>
+    </div>
+  );
+};
 
-export default LandingPage
+export default LandingPage;
