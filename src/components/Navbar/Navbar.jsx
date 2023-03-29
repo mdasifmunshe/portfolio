@@ -56,7 +56,7 @@ const Navbar = () => {
                 className=""
               >
                 <img
-                  src="/portfolio/assets/linkedin-logo.png"
+                  src="./linkedin-logo.png"
                   alt="linkedin-logo"
                   className="h-7 w-7 rounded bg-[#86fbfb] p-[2px] hover:bg-blue-500"
                 />
@@ -70,7 +70,7 @@ const Navbar = () => {
                 className=""
               >
                 <img
-                  src="/portfolio/assets/github-mark.svg"
+                  src="./github-mark.svg"
                   alt="github-mark"
                   className="h-7 w-7 rounded bg-[#86fbfb] p-1 hover:bg-blue-500"
                 />
