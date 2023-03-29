@@ -1,7 +1,11 @@
+import { Link } from "react-router-dom";
+import { Main } from "../../components";
+
 const LandingPage = () => {
   return (
-    <div>
-      <h1 className="text-xl text-blue-800">LandingPage</h1>
+    <div id="landing">
+      <Main />
+      <div className="h-1 bg-gradient-to-r from-sky-500 to-indigo-500" />
     </div>
   );
 };
