@@ -6,7 +6,7 @@ const Navbar = () => {
       id="navbar"
       className="m-auto p-4 font-oxygen-mono text-[80%] md:max-w-[1200px]"
     >
-      <div className="flex items-center justify-between">
+      <div className="flex flex-col items-center justify-between gap-4 sm:flex-row sm:gap-0">
         <div className="flex-none">
           <h1>
             <Link
@@ -33,7 +33,7 @@ const Navbar = () => {
           </h1>
         </div>
         <div className="flex-1">
-          <ul className="flex list-none flex-wrap items-center justify-end gap-8">
+          <ul className="flex list-none flex-wrap items-center justify-center gap-8 xs:justify-end">
             <li>
               <Link to={"/portfolio/about"} className="hover:text-[#06fbfb]">
                 About
