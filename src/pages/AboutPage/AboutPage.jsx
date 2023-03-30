@@ -1,6 +1,6 @@
 const AboutPage = () => {
   return (
-    <div>
+    <div id="about">
       <p>AboutPage</p>
     </div>
   );

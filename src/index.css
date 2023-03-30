@@ -2,5 +2,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap");
 
 @tailwind base;
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: white;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #171321;
+  border-radius: 9999px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #0284c7;
+  border-radius: 9999px;
+  border: 3px solid #0284c7;
+}
+
 @tailwind components;
 @tailwind utilities;
